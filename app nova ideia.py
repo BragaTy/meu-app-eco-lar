@@ -34,7 +34,7 @@ APARELHOS = {
     "Sala": {
         "Televisão LED (55')": {"potencia_w": 150},
         "Home Theater / Som": {"potencia_w": 200},
-        "Consola de Videojogos": {"potencia_w": 180},
+        "Console/Videojogos": {"potencia_w": 180},
     },
     "Lavandaria": {
         "Máquina de Lavar Roupa": {"potencia_w": 1000},
@@ -160,4 +160,5 @@ if st.sidebar.button("Calcular Impacto!", use_container_width=True):
         st.warning("Nenhum aparelho foi adicionado ao inventário. Preencha os dados na barra lateral para ver a análise.")
 
 else:
+
     st.info("Preencha o inventário na barra lateral à esquerda e clique em 'Calcular Impacto!' para ver a sua análise personalizada.")
